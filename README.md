@@ -12,13 +12,13 @@ NAME
     <br>cleanup-xaappsandaccts.ps1
     
 SYNOPSIS
-    <br>Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application.
+    <br>Iterates through a XenApp 6.5 Application list and recommends cleanup actions to reduce the number of users/groups assigned to a published application.
     
 SYNTAX
     <br>cleanup-xaappsandaccts.ps1 [[-XMLBrokers] <Object>] [[-addADGroupList]] [<CommonParameters>]
     
 DESCRIPTION
-    <br>Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application. The recommended actions will output to a txt file. If addADGroupList is present, then the script will create a txt file of new AD groups. It is recommended that this script be run as a Citrix admin.
+    <br>Iterates through a XenApp 6.5 Application list and recommends cleanup actions to reduce the number of users/groups assigned to a published application. The recommended actions will output to a txt file. If addADGroupList is present, then the script will create a txt file of new AD groups. It is recommended that this script be run as a Citrix admin.
     
 PARAMETERS
 
@@ -70,7 +70,7 @@ NOTES
     Will use "XMLBROKER" to query XenApp farm.
     
 # Legal and Licensing
-The cleanup-xaappsandaccts.ps1 script is licensed under the [MIT license][].
+The cleanup-xaappsandaccts.ps1 script is licensed under the [MIT license] [].
 
 [MIT license]: LICENSE
 
