@@ -9,20 +9,19 @@ I'd like to highlight the posts that helped me write this script below.
 # get-help .\cleanup-xaappsandaccts.ps1 -full
 
 NAME
-    cleanup-xaappsandaccts.ps1
+    <br>cleanup-xaappsandaccts.ps1
     
 SYNOPSIS
-    Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application.
+    <br>Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application.
     
 SYNTAX
-    cleanup-xaappsandaccts.ps1 [[-XMLBrokers] <Object>] [[-addADGroupList]] [<CommonParameters>]
+    <br>cleanup-xaappsandaccts.ps1 [[-XMLBrokers] <Object>] [[-addADGroupList]] [<CommonParameters>]
     
 DESCRIPTION
-    Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application. 
-    The recommended actions will output to a txt file. If addADGroupList is present, then the script will create a txt file of new AD groups.
-    It is recommended that this script be run as a Citrix admin.
+    <br>Iterates through a XenApp 6.5 Application list and recomemnds cleanup actions to reduce the number of users/groups assigned to a published application. The recommended actions will output to a txt file. If addADGroupList is present, then the script will create a txt file of new AD groups. It is recommended that this script be run as a Citrix admin.
     
 PARAMETERS
+
     -XMLBrokers <Object>
         Optional parameter. Which Citrix XMLBroker(s) (farm) to query. Can be a list separated by commas.
         
@@ -48,10 +47,10 @@ PARAMETERS
         about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
 INPUTS
-    None
+    <br>None
     
 OUTPUTS
-    None
+    <br>None
     
 NOTES
     
@@ -79,7 +78,7 @@ The cleanup-xaappsandaccts.ps1 script is licensed under the [MIT license][].
 * LinkedIn - https://www.linkedin.com/in/alainassaf
 * Twitter - http://twitter.com/alainassaf
 * Wag the Real - my blog - https://wagthereal.com
-* Edgesightunderthehood - my other - blog https://edgesightunderthehood.com
+* Edgesightunderthehood - my other blog https://edgesightunderthehood.com
 
 # Help
 I welcome any feedback, ideas or contributors.
