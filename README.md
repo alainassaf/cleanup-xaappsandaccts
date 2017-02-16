@@ -2,7 +2,7 @@
 Recommends account/group clean-up actions for published applications
 
 #Contributions to this script
-I'd like to highlight the posts that helped me write this scrip below.
+I'd like to highlight the posts that helped me write this script below.
 * https://blogs.technet.microsoft.com/heyscriptingguy/2014/05/07/powershell-looping-basics-of-the-break/
 * http://powershelleverydayfaq.blogspot.com/2013/08/how-to-use-write-verbose-with-object.html    
 
